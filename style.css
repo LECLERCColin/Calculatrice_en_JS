@@ -1,0 +1,68 @@
+body{
+    background-color: black;
+}
+#global{
+    font-size: 40px;
+    width: 650px;
+    margin: 100px auto;
+    margin-left: 200px;
+    border: 2px solid black;
+    border-radius: 6px;
+    background-color: rgb(0, 0, 0);
+    
+}
+
+#res{
+    font-size: 120px;
+    width: 600px;
+    text-align: end;
+    color: white;
+    background-color: black;
+    
+}
+
+#clavier{
+    text-align: center;
+    flex-wrap: nowrap;
+    padding: 10px 10px ;
+    flex-wrap: wrap;
+   
+    
+    
+}
+
+.touches{
+    background-color: rgb(66, 60, 60);
+    color: white;
+    text-align: center;
+    display: inline-block;
+    border: 2px solid black;
+    border-radius: 50%;
+    cursor: default;
+    padding: 25px 50px 25px;
+    margin-bottom: 10px;
+    margin-right: 20px;
+}
+#ac{
+    border-radius: 300px;
+    background-color: rgb(141, 132, 132);
+    padding: 25px 200px 25px;
+}
+#div{
+    background-color: rgb(218, 145, 61);
+}
+#operateurs{
+    background-color: rgb(218, 145, 61);
+}
+#zero{
+    border-radius: 300px;
+    padding: 25px 200px 25px;
+}
+
+.touches:hover{
+    background: rgb(223,223,223);
+    background: linear-gradient(90deg, rgba(223,223,223,1) 0%, rgba(183,183,201,1) 29%, rgba(168,168,190,1) 50%, rgba(156,156,167,1) 75%, rgba(203,203,203,1) 100%);
+}
+.touches:active{
+    box-shadow: white 0px 5px 15px;
+}
